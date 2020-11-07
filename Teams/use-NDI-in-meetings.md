@@ -40,7 +40,9 @@ Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
 
 2. After this change has populated, the end user must turn on NDI® technology for their specific client from **Settings** > **Permissions**.
 
-When a user joins a meeting, they'll see a message that notifies them that the meeting is being broadcast. If users don’t want to be included in the broadcast, they’ll need to drop from the meeting.
+3. After joining a meeting, the NDI-user must select "Broadcast over NDI" to initiate the availability of NDI streams.
+
+If an NDI stream is subscribed to by other hardware or software, all attendees of the meeting will see a message that notifies them that the meeting is being broadcast. If users don’t want to be included in the broadcast, they’ll need to drop from the meeting.
 
 The following image shows the banner message that a user sees in a Teams meeting.
 
